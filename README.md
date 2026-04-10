@@ -65,6 +65,6 @@ Tabla `habitos` (guarda los hábitos que cada usuario registra)
 `completado` | VARCHAR(10) | Guarda `"si"` o `"no"` para saber si el hábito se cumplió. Usé texto porque es más fácil de leer en el código que usar 0 o 1. |
 `observaciones` | VARCHAR(200) | Es opcional (puede estar vacío). El usuario puede escribir una nota corta de hasta 200 caracteres. |
 
-Relación entre tablas: Un usuario puede tener muchos hábitos, pero cada hábito pertenece a un solo usuario. Por eso la tabla `habitos` tiene `usuario_id` para apuntar al dueño del hábito.
+Relación entre tablas: Un usuario puede tener muchos hábitos, pero cada hábito pertenece a un solo usuario. Por eso la tabla `habitos` tiene `usuario_id` para apuntar al dueño del hábito. 
 
 
